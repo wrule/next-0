@@ -1,5 +1,6 @@
+import fs from 'fs';
 
 export default
 function About() {
-  return <div>关于</div>;
+  return <div>{fs.readFileSync('/Users/jimao/next-0/package.json', 'utf8')}</div>;
 }
