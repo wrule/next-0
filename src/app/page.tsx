@@ -13,6 +13,7 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          <li>我要重新部署</li>
           <li>你好，世界</li>
           <li className="mb-2">
             Get started by editing{" "}
